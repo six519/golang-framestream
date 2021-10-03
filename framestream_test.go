@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	framestream "github.com/farsightsec/golang-framestream"
+	framestream "github.com/six519/golang-framestream"
 )
 
 func testDecoder(t *testing.T, dec *framestream.Decoder, nframes int) {
